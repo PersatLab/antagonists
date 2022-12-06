@@ -15,7 +15,7 @@
   * jpg files of the plots are just saved in the protein of interest directory
   * all of the final folders must be contained in a parent folder with the name of your protein of interest, either all together or separated in different protein of interest folders (for example to separate the final graphs from the data)
       
-* Make sure all directores in the Matlab scripts are matching your personal system's directories
+* Make sure all directories in the Matlab scripts are matching your personal system's directories
 
 
 # How to run this code
