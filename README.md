@@ -1,7 +1,7 @@
 # Preparation
 
 * Prepare folders for data storage and results as specified in the various scripts
-  * One folder for your each of you proteins of interest containing:
+  * One folder for your each of your proteins of interest containing:
     * Input_Profile_Analysis.xlsx (what you add here must match exactly how you name the BacStalk file, see below for details)
       * each line represents one set of data
       * **column 1** - strain number
