@@ -1,7 +1,7 @@
 # Preparation
 
 * Prepare folders for data storage and results as specified in the various scripts
-  * folder for your protein of interest containing
+  * One folder for your each of you proteins of interest containing:
     * Input_Profile_Analysis.xlsx (what you add here must match exactly how you name the BacStalk file, see below for details)
       * each line represents one set of data
       * **column 1** - strain number
@@ -26,7 +26,7 @@
 	* **..._firstPic_MJK.ijm** - same but for image sequences, only saves the first image
 
 * Run BacStalk (Matlab, v1.8, https://drescherlab.org/data/bacstalk/docs/index.html) to segment the cells
-* save BacStalk mat file
+* Save BacStalk mat file
 	* mat files must be saved in dir_data directory (see localization_profile_static.m)
   * the file name must follow the following format: **date_"DataSet"_number_condition** (e.g. 20220106_DataSet_923_mNG_PilG_sol0h)
   * file name elements must match the fields in Input_Profile_Analysis.xlsx
