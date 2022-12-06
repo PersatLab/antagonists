@@ -31,6 +31,10 @@
   * the file name must follow the following format: **date_"DataSet"_number_condition** (e.g. 20220106_DataSet_923_mNG_PilG_sol0h)
   * file name elements must match the fields in Input_Profile_Analysis.xlsx
 
+* Enter in the Input_Profile_Analysis.xlsx file the data you want to plot together
+  * It is recommended to plot maximum 3 strains and 3 conditions at a time
+  * If plotting more, the plots get a bit crowded
+
 * Run localization_profile_static.m (Matlab) located in graph_plotting
   * change lines according to the protein (folder name) you want to plot and the name you gave the fluorescence channel
   * modify the lines containing "directory" (search for it) to match your system
