@@ -1,0 +1,11 @@
+0. Make sure all directores in the scripts are matching your personal system and prepare correctly named folders!
+
+1. Run SplitImage (Fiji ImageJ, v1.53, https://fiji.sc/) to prepare for BacStalk analysis
+	SplitImage_MJK.ijm				for single images with first channel phase contrast + second channel fluorescence
+	SplitImage_MJK_mNG+mScI.ijm		for single images with first channel phase contrast + second channel fluorescence + third channel fluorescence
+	..._firstPic_MJK.ijm			same but for image sequences, only save the first image
+
+2. Run BacStalk (Matlab, v1.8, https://drescherlab.org/data/bacstalk/docs/index.html) and save BacStalk mat file
+	mat files must be saved in dir_data (see with localization_profile_static.m) the following format (example): 20220106_DataSet_923_mNG_PilG_sol0h (i.e. date_DataSet_number_condition)
+
+3. Run localization_profile_static.m (Matlab) located in graph_plotting
