@@ -23,7 +23,7 @@
 * Run one of the SplitImage macros (Fiji ImageJ, v1.53, https://fiji.sc/) to prepare for BacStalk analysis
   * **SplitImage_MJK.ijm** - for single images with first channel phase contrast + second channel fluorescence
   * **SplitImage_MJK_mNG+mScI.ijm** - for single images with first channel phase contrast + second channel fluorescence + third channel fluorescence (the Matlab code will only use one of the fluorescence channels at a time but you can run BacStalk with both channels together)
-	* **..._firstPic_MJK.ijm** - same but for image sequences, only saves the first image
+  * **..._firstPic_MJK.ijm** - same but for image sequences, only saves the first image
 
 * Run BacStalk (Matlab, v1.8, https://drescherlab.org/data/bacstalk/docs/index.html) to segment the cells
 * Save BacStalk mat file
