@@ -1,13 +1,13 @@
 # Preparation
 
 * Prepare folders for data storage and results as specified in the various scripts
-  * One folder for your each of your proteins of interest containing:
-    * Input_Profile_Analysis.xlsx (what you add here must match exactly how you name the BacStalk file, see below for details)
+  * One folder for each of your proteins of interest containing:
+    * Input_Profile_Analysis.xlsx (what you enter here must match exactly how you name the BacStalk file, see below for details)
       * each line represents one set of data
       * **column 1** - strain number
       * **column 2** - name (whatever is in between "Dataset_" and "_condition"
-      * **column 1** - date
-      * **column 1** - condition
+      * **column 3** - date
+      * **column 4** - condition
     * folder "data"
     * folder "mat"
     * folder "svg_files"
@@ -15,7 +15,22 @@
   * jpg files of the plots are just saved in the protein of interest directory
   * all of the final folders must be contained in a parent folder with the name of your protein of interest, either all together or separated in different protein of interest folders (for example to separate the final graphs from the data)
       
-* Make sure all directories in the Matlab scripts are matching your personal system's directories
+* Make sure all directories in the ImageJ and Matlab scripts are matching your personal system's directories
+* You can search for "directory" in the scripts and modify them, but make sure to only modify strings and not change variable names!
+
+
+# Requirements
+
+ * ImageJ / Fiji - version 1.53 or higher
+   * plugins contained in Fiji
+   * StackReg plugin (http://bigwww.epfl.ch/thevenaz/stackreg/)
+   * TurboReg plugin (http://bigwww.epfl.ch/thevenaz/turboreg/)
+   * MultiStackReg plugin (https://biii.eu/multistackreg)
+ * Matlab - version R2019b or higher
+   * Image Processing Toolbox (https://ch.mathworks.com/products/image.html)
+   * Parallel Computing Toolbox (https://ch.mathworks.com/products/parallel-computing.html?s_tid=srchtitle_Parallel%20Processing%20Toolbox_1)
+ * BacStalk - version 1.8
+ 
 
 
 # How to run this code

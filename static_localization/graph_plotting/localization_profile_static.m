@@ -2,6 +2,7 @@
 clear all
 
 % Search all fields with "directory" and replace with your personal directories
+% Rename only strings but no variables!
 
 strainFolder = 'PilG'; % IMPORTANT!!! must match exactly the folder name, folder must contains "data" and "final_figure" folder, "data" must contain "Input_Profile_Analysis.xlsx"
 fluo = 'mNeonGreen'; % IMPORTANT!!! must match exactly what was entered in BacStalk
@@ -9,9 +10,9 @@ fluo = 'mNeonGreen'; % IMPORTANT!!! must match exactly what was entered in BacSt
 
 only_plot = 0; % if 1 only loads data from the generated mat file specified below, if 0 calculates data and saves as mat file
 load_name = 'Data_name'; % 'Data_Name' no .mat at the end
-dir_data=strcat("G:\directory\",strainFolder);
-dir_save_mat = strcat("G:\directory\",strainFolder,"\mat");
-dir_save_graph = strcat("G:\directory\",strainFolder);
+dir_data=strcat("G:\directory\",strainFolder); % Recommended to have the dir_data in a different folder than dir_save_graph
+dir_save_mat = strcat("G:\directory\",strainFolder,"\mat"); 
+dir_save_graph = strcat("G:\directory\",strainFolder); % Recommended to have the dir_data in a different folder than dir_save_graph
 
 do_save = 0; % if 0 doesn't save graphs, but still saves mat file
 do_violin = 1; % Note, doesn't work right after using BacStalk. Restart Matlab!

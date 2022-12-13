@@ -1,8 +1,8 @@
 # Preparation
 
 * Segment cells with BacStalk (Matlab, v1.8, https://drescherlab.org/data/bacstalk/docs/index.html)
-* you can use Split_Image to prepare images (see static_localization)
-* generate a demograph and save as tiff
+* You can use Split_Image to prepare images (see static_localization)
+* Generate a demograph and save as tiff
   * Alignment: Cell pole
   * Measurement: Your fluorescent channel name
   * Type: Mean
