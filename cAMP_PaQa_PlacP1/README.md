@@ -1,3 +1,5 @@
+# Run with Python (v3.8.5) in jupyter notebook
+
 # cAMP_PaQa.ipynb: This script calculates cAMP ratios acquired using the PaQa plasmid and pre-analysed using stock BacStalk
 
 * Change all directories in this script according to your system
