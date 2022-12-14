@@ -1,5 +1,8 @@
 # Run with Python (v3.8.5) in jupyter notebook
 
+* Easy install altogether through Anaconda (https://www.anaconda.com/products/distribution)
+
+
 # cAMP_PaQa.ipynb: This script calculates cAMP ratios acquired using the PaQa plasmid and pre-analysed using stock BacStalk
 
 * Change all directories in this script according to your system
