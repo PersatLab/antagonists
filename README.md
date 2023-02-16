@@ -1,5 +1,6 @@
 # Content
-ImageJ, Matlab and Python code used in the study "Two antagonistic response regulators control <em>Pseudomonas aeruginosa</em> polarization during mechanotaxis".  Please refer to the corresponding paragraphs of the Methods section for more details. 
+ImageJ, Matlab and Python code used in the study "Two antagonistic response regulators control <em>Pseudomonas aeruginosa</em> polarization during mechanotaxis" (https://doi.org/10.15252/embj.2022112165).  Please refer to the corresponding paragraphs of the Methods section for more details. 
+
 
 * **average_maps** - Create qualitative average localization maps of fluorescent proteins from cells segmented by BacStalk.
 * **cAMP_PaQa_PlacP1** - Plot PaQa or PlacP1 ratios to measure cAMP levels of individual cells from cells segmented by BacStalk or measured by flow cytometry, respectively. 
